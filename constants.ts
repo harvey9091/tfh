@@ -51,8 +51,8 @@ export const SQUAD_MEMBERS: Member[] = [
 ];
 
 export const LATEST_VIDEOS: Video[] = [
-  { id: 'EhZ106tp31Q', title: 'Warzone Victory', url: 'https://youtu.be/EhZ106tp31Q?si=WKpqdm1xrLQGIlxq' },
-  { id: 'hPUDf9IQX40', title: 'Squad Wipe', url: 'https://youtu.be/hPUDf9IQX40?si=6CCeLB-M80Pld30C' },
-  { id: 'X828riCBF6A', title: 'Sniper Montage', url: 'https://youtu.be/X828riCBF6A?si=CP3tEpS0jGa90tjZ' },
-  { id: 'oJI9nRJACck', title: 'Tactical Gameplay', url: 'https://youtu.be/oJI9nRJACck?si=OO3QXD9WL8AVnNT7' },
+  { id: 'EhZ106tp31Q', title: '', url: 'https://youtu.be/EhZ106tp31Q?si=WKpqdm1xrLQGIlxq' },
+  { id: 'hPUDf9IQX40', title: '', url: 'https://youtu.be/hPUDf9IQX40?si=6CCeLB-M80Pld30C' },
+  { id: 'X828riCBF6A', title: '', url: 'https://youtu.be/X828riCBF6A?si=CP3tEpS0jGa90tjZ' },
+  { id: 'oJI9nRJACck', title: '', url: 'https://youtu.be/oJI9nRJACck?si=OO3QXD9WL8AVnNT7' },
 ];
