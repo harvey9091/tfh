@@ -14,8 +14,8 @@ export const SQUAD_MEMBERS: Member[] = [
     status: 'UNKNOWN',
     location: 'UNKNOWN',
     description: 'A relentless predator who stalks targets till the end. Hunger isn’t just a name — it’s a curse.',
-    // New Image: Verified Sniper Scope/Rifle
-    imageUrl: 'https://images.unsplash.com/photo-1585562112480-4592202a00c2?q=80&w=800&auto=format&fit=crop', 
+    // New Image: Verified Working Tactical Scope / Rifle Detail
+    imageUrl: 'https://images.unsplash.com/photo-1595590424283-b8f17842773f?q=80&w=800&auto=format&fit=crop', 
     prompt: 'A high-tech sniper rifle lying on a dark metallic surface. Minimalist, premium, dark cinematic lighting.'
   },
   {
