@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE FOUR HORSEMEN | Enter the Abyss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --font-display: 'Orbitron', sans-serif;
+        --font-body: 'Rajdhani', sans-serif;
+      }
+      body {
+        font-family: var(--font-body);
+        background-color: #050505;
+        color: #e5e5e5;
+        overflow-x: hidden;
+      }
+      .font-display {
+        font-family: var(--font-display);
+      }
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      
+      /* Subtle Glassmorphism */
+      .glass-panel {
+        background: rgba(15, 15, 15, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.03);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+      }
+      .glass-panel:hover {
+        border-color: rgba(220, 38, 38, 0.2);
+        background: rgba(20, 20, 20, 0.7);
+        box-shadow: 0 0 15px rgba(220, 38, 38, 0.1);
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #020202;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #881111;
+      }
+
+      /* Subtle Red Dust Particle Animation */
+      @keyframes float-up {
+        0% { transform: translateY(100vh) translateX(0); opacity: 0; }
+        20% { opacity: 0.3; }
+        80% { opacity: 0.1; }
+        100% { transform: translateY(-10vh) translateX(20px); opacity: 0; }
+      }
+      .particle {
+        position: absolute;
+        background: rgba(200, 50, 50, 0.3); /* Subtle Red Dust */
+        border-radius: 50%;
+        opacity: 0;
+        pointer-events: none;
+        animation: float-up 25s infinite linear;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
